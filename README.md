@@ -2,9 +2,9 @@
    <img src="screenshot.png" width="800" />
 </div>
 
-# Runcloud Logo
+# Runcloud.io Logo
 
-Runcloud Logo using Canvas
+[Runcloud.io](https://runcloud.io/) Logo using Canvas
 
 ## Getting Started
 
