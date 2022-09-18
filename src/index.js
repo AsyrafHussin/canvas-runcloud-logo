@@ -17,7 +17,7 @@ const circle = (context, x, y, r) => {
   context.restore();
 };
 
-const roundedRect = (context, x, y, w, h, r, bg = null) => {
+const roundedRect = (context, x, y, w, h, r, bg) => {
   context.fillStyle = bg;
 
   context.save();
