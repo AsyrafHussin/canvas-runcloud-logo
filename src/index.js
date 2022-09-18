@@ -33,12 +33,12 @@ const roundedRect = (context, x, y, w, h, r, bg) => {
 };
 
 const text = (context, width) => {
-  let myFont = new FontFace("Nunito", "url(./Nunito.ttf)", {
+  let nunitoFont = new FontFace("Nunito", "url(./Nunito.ttf)", {
     style: "italic",
     weight: "900",
   });
 
-  myFont.load().then((font) => {
+  nunitoFont.load().then((font) => {
     document.fonts.add(font);
     context.fillStyle = LOGO_COLOR;
     context.font = "italic 900 " + width * 0.117 + "px Nunito";
